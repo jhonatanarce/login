@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;600&family=Kumar+One&display=swap");
+/*
+font-family: 'Dosis', sans-serif;
+font-family: 'Kumar One', cursive;*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main {
+  background-image: url("imgs/fondologin.jpg");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 25vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.contenedor h1 {
+  font-size: 50px;
+  font-family: "Kumar one", cursive;
+  margin-bottom: 70px;
+  margin-top: 0px;
+  padding-top: 0px;
+  color: black;
+}
+
+.inputs input {
+  height: 30px;
+  width: 200px;
+  margin-left: 15px;
+  border: none;
+  border-radius: 100px;
+  padding-inline: 10px;
+}
+
+.inputs img {
+  border-left: 5px;
+}
+
+.ref {
+  margin-top: 20px;
+}
+
+.botom {
+  margin-top: 50px;
+  color: black;
+  background-color: white;
+  width: 60px;
+  height: 30px;
+  border-color: black;
+  border-radius: 20px;
+}
+
+.botom:hover {
+  background-color: #196fb2;
+}
